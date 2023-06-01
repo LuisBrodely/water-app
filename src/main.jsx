@@ -5,10 +5,10 @@ import {
   RouterProvider,
   Navigate
 } from 'react-router-dom';
-import './index.css';
 
 import { LoadingPage } from './pages/LoadingPage.jsx';
 import { HomePage } from './pages/HomePage.jsx';
+import './index.css';
 
 
 const router = createBrowserRouter([
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <LoadingPage />,
   },
   {
-    path: "/principal",
+    path: "/home",
     element: <HomePage />
   },
   {
