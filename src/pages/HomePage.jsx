@@ -1,10 +1,8 @@
 
-import WaterLogo from '../assets/images/water-logo.svg';
+import {TitleWithWater} from "../components/TitleWithWater.jsx";
 
 export const HomePage = () => { 
     return (
-        <div className='flex items-center justify-center h-screen bg-[#F0F0F0]'>
-            <p>HOLAAAA A TODOOOOS</p>
-        </div>
+        <TitleWithWater title="Coyol con pelo" subtitle="con mucho pelo compadre" />
     );
 }
