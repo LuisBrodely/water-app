@@ -1,10 +1,9 @@
 import './App.css'
+import { LoadingPage } from './pages/LoadingPage'
 
 function App() {
   return (
-    <>
-      <h1>Hola Mundo :D XDXD</h1>
-    </>
+      <LoadingPage />
   )
 }
 
