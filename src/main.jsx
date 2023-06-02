@@ -8,6 +8,7 @@ import {
 
 import { LoadingPage } from './pages/LoadingPage.jsx';
 import { HomePage } from './pages/HomePage.jsx';
+import { WaterPage } from './pages/WaterPage';
 import './index.css';
 
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <HomePage />
+  },
+  {
+    path: "/water",
+    element: <WaterPage />
   },
   {
     path: "*",
